@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mainClass{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.up{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upInsta{
+    border: black 1px solid;
+}
+
+.upTitle{
+    border: black 1px solid;
+    text-align: center;
+}
+
+.upMenu{
+    border: black 1px solid;
+    text-align: center;
+}
+
+.middle{
+    background-color: aqua;
+}
+
+.down{
+    background-color: wheat;
+}
+
+
+.sloik{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.szklo{
+    width: 50px;
+    height: 70px;
+    background-color: pink;
+    border-radius: 20%;
+}
+
+.nakretka{
+    width: 40px;
+    height: 5px;
+    background-color: royalblue;
+    border-radius: 30%;
+}
+
+.blyskotka{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -15px;
+    background-color: white;
+    width: 5px;
+    height: 20px;
+    border-radius: 40%;
+    transform: rotate(20deg);
+}
+
+.kropka{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 5px;
+    height: 8px;
+    margin-top: 40px;
+    margin-left: -10px;
+}
